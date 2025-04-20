@@ -1,28 +1,38 @@
-# 🤖 Maze Robot Game
+### 🧠 rajdhokai / Maze Robot Game
 
-An interactive, browser-based game where a robot navigates through a maze!  
-Built using modern frontend technologies like **React**, **Vite**, **TypeScript**, and styled with **Tailwind CSS**.
+# 🤖 Maze Robot Game  
+Maze Robot Game is an interactive browser-based puzzle game where you help a robot navigate through a maze to its goal!  
+Built using **React**, **Vite**, **TypeScript**, and styled with **Tailwind CSS**, it's designed for smooth gameplay and modern UI.
 
-## 🚀 Features
+---
 
-- 🧠 Maze logic and robot movement  
-- ⚡ Lightning-fast development with Vite  
-- 🎨 Utility-first styling with Tailwind CSS  
-- 🧩 Modular, scalable TypeScript codebase  
-- 💡 ESLint and Prettier for clean, consistent code  
-- 🎯 Live preview and dev server  
+🎮 **Game Features**
 
-## 📦 Tech Stack
+🧠 **Maze Logic & Movement**
+- The robot moves through a grid-based maze.
+- Players control movement with arrow keys.
+- Logic prevents wall collisions and ensures valid paths.
+- The structure allows for dynamic mazes in the future.
 
-- **React** `18.3.1`  
-- **Vite** `5.4.2`  
-- **TypeScript** `5.5.3`  
-- **Tailwind CSS** `3.4.1`  
-- **Lucide React Icons**  
-- **ESLint** for linting and code quality  
+🎨 **UI & UX**
+- Responsive and clean layout using Tailwind CSS.
+- Smooth transitions and mobile-friendly controls.
+- Designed for clarity and accessibility.
 
-## 📂 Project Structure
+⚙️ **Development Tools**
+- Built with **Vite** for lightning-fast HMR and builds.
+- Code is modular and scalable with **TypeScript**.
+- Uses **ESLint** and **Prettier** for clean, consistent code.
+- Icon support with **Lucide React Icons**.
 
+📦 **Tech Stack**
+- React `18.3.1`  
+- Vite `5.4.2`  
+- TypeScript `5.5.3`  
+- Tailwind CSS `3.4.1`  
+- ESLint for linting and code quality
+
+📁 **Project Structure**
 ```
 maze-robot/
 ├── public/         # Static assets
@@ -36,61 +46,37 @@ maze-robot/
 └── vite.config.ts  # Vite configuration
 ```
 
-## ⚙️ Getting Started
-
-### 1. Clone the Repository
-
+🚀 **Getting Started**
 ```bash
 git clone https://github.com/rajdhokai/maze-robot-game.git
 cd maze-robot-game
-```
 
-### 2. Install Dependencies
-
-```bash
 npm install
-```
-
-### 3. Start the Development Server
-
-```bash
 npm run dev
 ```
 
-### 4. Build for Production
-
+📦 **Build & Preview**
 ```bash
-npm run build
+npm run build     # Build for production
+npm run preview   # Preview production build
 ```
 
-### 5. Preview the Production Build
-
+🧹 **Linting**
 ```bash
-npm run preview
+npm run lint      # Run ESLint to enforce standards
 ```
 
-## ✅ Linting
-
-Run ESLint to catch issues and enforce code standards:
-
-```bash
-npm run lint
-```
-
-## 🧪 Coming Soon
-
+🧪 **Coming Soon**
 - 🔁 Dynamic maze generation
 - 🎮 Keyboard and mobile controls
 - 🧾 Score tracking and difficulty levels
 - 🔊 Sound effects and animations
 
-## 📄 License
+📄 **License**
+Open source under the MIT License.
 
-This project is open source and available under the MIT License.
+🙌 **Contributions**
+Pull requests, feedback, and issues are welcome!  
+Fork the repo and help the robot escape the maze 🚀
 
-## 🙌 Contributions
-
-Pull requests, issues, and suggestions are welcome!
-Feel free to fork the repo and enhance the game.
-
-## 🎮 Let's help the robot escape the maze!
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajdhokai/maze-robot-game)
