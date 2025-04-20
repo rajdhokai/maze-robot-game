@@ -1,99 +1,96 @@
 # 🤖 Maze Robot Game
 
-An interactive, browser-based game where a robot navigates through a maze! Built with modern frontend technologies like React, Vite, TypeScript, and styled using Tailwind CSS.
-
-![Maze Robot Game Screenshot](https://your-screenshot-url.com) <!-- Replace with actual image URL -->
-
----
+An interactive, browser-based game where a robot navigates through a maze!  
+Built using modern frontend technologies like **React**, **Vite**, **TypeScript**, and styled with **Tailwind CSS**.
 
 ## 🚀 Features
 
-- 🧠 Maze logic and robot movement
-- ⚡ Fast performance with Vite
-- 🎨 Beautifully styled using Tailwind CSS
-- 🧩 Built with modular, scalable TypeScript
-- 💡 Clean code with ESLint + Prettier setup
-- 🎯 Live preview and dev server
-
----
+- 🧠 Maze logic and robot movement  
+- ⚡ Lightning-fast development with Vite  
+- 🎨 Utility-first styling with Tailwind CSS  
+- 🧩 Modular, scalable TypeScript codebase  
+- 💡 ESLint and Prettier for clean, consistent code  
+- 🎯 Live preview and dev server  
 
 ## 📦 Tech Stack
 
-- **React** `18.3.1`
-- **Vite** `5.4.2`
-- **TypeScript** `5.5.3`
-- **Tailwind CSS** `3.4.1`
-- **Lucide React Icons**
-- **ESLint** for linting
-
----
+- **React** `18.3.1`  
+- **Vite** `5.4.2`  
+- **TypeScript** `5.5.3`  
+- **Tailwind CSS** `3.4.1`  
+- **Lucide React Icons**  
+- **ESLint** for linting and code quality  
 
 ## 📂 Project Structure
 
-maze-robot/ 
-├── public/ 
-# Static assets
-├── src/
-  # Application source code │
-   ├── components/ 
-   # Reusable UI components │ 
-   ├── game/ # Maze and robot logic │ 
-   ├── App.tsx # Root component │ 
-   └── main.tsx # Entry point 
-├── index.html # App HTML shell 
-├── tailwind.config.js # Tailwind setup 
-└── vite.config.ts # Vite config
-
-
----
+```
+maze-robot/
+├── public/         # Static assets
+├── src/            # Application source code
+│   ├── components/ # Reusable UI components
+│   ├── game/       # Maze and robot logic
+│   ├── App.tsx     # Root component
+│   └── main.tsx    # Entry point
+├── index.html      # App HTML shell
+├── tailwind.config.js # Tailwind CSS configuration
+└── vite.config.ts  # Vite configuration
+```
 
 ## ⚙️ Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/maze-robot-game.git
+git clone https://github.com/rajdhokai/maze-robot-game.git
 cd maze-robot-game
+```
 
-### 2. Install dependencies
+### 2. Install Dependencies
 
+```bash
 npm install
+```
 
-### 3. Start the development server
+### 3. Start the Development Server
 
+```bash
 npm run dev
+```
 
-### 4. Build for production
+### 4. Build for Production
 
+```bash
 npm run build
+```
 
-### 5. Preview the production build
+### 5. Preview the Production Build
 
+```bash
 npm run preview
+```
 
-### Linting
-- Run ESLint to catch issues and enforce coding standards:
+## ✅ Linting
 
+Run ESLint to catch issues and enforce code standards:
+
+```bash
 npm run lint
+```
 
-### 🧪 Coming Soon
-Dynamic maze generation
+## 🧪 Coming Soon
 
-Keyboard and mobile controls
+- 🔁 Dynamic maze generation
+- 🎮 Keyboard and mobile controls
+- 🧾 Score tracking and difficulty levels
+- 🔊 Sound effects and animations
 
-Score tracking & difficulty levels
-
-Sound effects and animations
-
-📄 License
+## 📄 License
 
 This project is open source and available under the MIT License.
 
-🙌 Contributions
+## 🙌 Contributions
 
-PRs, issues, and suggestions are welcome! Feel free to fork and improve the game.
+Pull requests, issues, and suggestions are welcome!
+Feel free to fork the repo and enhance the game.
 
-🎮 Let's help the robot escape the maze!
-
-Would you like help designing the maze logic or robot movement system next?
-
+## 🎮 Let's help the robot escape the maze!
